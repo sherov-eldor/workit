@@ -75,6 +75,19 @@ img {
     color: var(--green-bg);
 }
 
+/*VISUALLY HIDDEN*/
+
+.visuallyhidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
 /* SITE HEADER */
 
 .site__header {
@@ -118,7 +131,7 @@ img {
 .hero {
     padding-top: 10px;
     padding-bottom: 10px;
-    height: 750px;
+    height: 650px;
     background-color: var(--ghost-white);
     background-image: url('../images/header-bg.png');
     background-position: center;
@@ -194,7 +207,7 @@ img {
     height: 440px;
     position: absolute;
     left: calc(50% - 350px);
-    bottom: calc(50% - 315px);
+    bottom: calc(50% - 275px);
     /* transform: translateX(50%); */
     transform: translateY(50%);
 
