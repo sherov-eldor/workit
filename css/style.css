@@ -118,7 +118,7 @@ img {
 .hero {
     padding-top: 10px;
     padding-bottom: 10px;
-    height: 650px;
+    height: 750px;
     background-color: var(--ghost-white);
     background-image: url('../images/header-bg.png');
     background-position: center;
@@ -194,8 +194,8 @@ img {
     height: 440px;
     position: absolute;
     left: calc(50% - 350px);
-    bottom: calc(50% - 265px);
-    transform: translateX(50%);
+    bottom: calc(50% - 315px);
+    /* transform: translateX(50%); */
     transform: translateY(50%);
 
 }
